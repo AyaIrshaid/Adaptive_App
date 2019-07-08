@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14490.70" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="ipad12_9rounded" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14490.49"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="1024" height="1366"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Title" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="0D5-Nc-LgM">
+                                <rect key="frame" x="379" y="100" width="266" height="144"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="72" id="EFR-ew-bV6">
+                                        <variation key="heightClass=regular-widthClass=regular" constant="144"/>
+                                    </constraint>
+                                    <constraint firstAttribute="width" constant="133" id="zk2-ar-tFD">
+                                        <variation key="heightClass=regular-widthClass=regular" constant="266"/>
+                                    </constraint>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="32"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <nil key="highlightedColor"/>
+                                <variation key="heightClass=regular-widthClass=regular">
+                                    <fontDescription key="fontDescription" type="system" pointSize="64"/>
+                                </variation>
+                            </label>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="screenImage" translatesAutoresizingMaskIntoConstraints="NO" id="Faz-q1-jGa">
+                                <rect key="frame" x="312" y="483" width="400" height="400"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="240" id="AkV-BE-PaQ">
+                                        <variation key="heightClass=regular-widthClass=regular" constant="400"/>
+                                    </constraint>
+                                    <constraint firstAttribute="width" constant="240" id="JDP-Ek-Ci4">
+                                        <variation key="heightClass=regular-widthClass=regular" constant="400"/>
+                                    </constraint>
+                                </constraints>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Sub-title for big screens" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="3CB-wK-KbH">
+                                <rect key="frame" x="381" y="241" width="262" height="40"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="262" id="AoB-G2-EBS"/>
+                                    <constraint firstAttribute="height" constant="40" id="MKY-lf-qGb"/>
+                                    <constraint firstAttribute="height" constant="21" id="jhT-Oo-VuV"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="24"/>
+                                <color key="textColor" red="0.74654980959999995" green="0.74654980959999995" blue="0.74654980959999995" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                                <variation key="default">
+                                    <mask key="constraints">
+                                        <exclude reference="AoB-G2-EBS"/>
+                                        <exclude reference="MKY-lf-qGb"/>
+                                        <exclude reference="jhT-Oo-VuV"/>
+                                    </mask>
+                                </variation>
+                                <variation key="heightClass=regular-widthClass=regular">
+                                    <mask key="constraints">
+                                        <include reference="AoB-G2-EBS"/>
+                                        <include reference="MKY-lf-qGb"/>
+                                        <exclude reference="jhT-Oo-VuV"/>
+                                    </mask>
+                                </variation>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" cocoaTouchSystemColor="viewFlipsideBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="Faz-q1-jGa" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="5m7-ec-q5I"/>
+                            <constraint firstItem="0D5-Nc-LgM" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="76" id="7rh-w8-4CN"/>
+                            <constraint firstItem="3CB-wK-KbH" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="217" id="8tT-Ws-zu0"/>
+                            <constraint firstItem="Faz-q1-jGa" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="DPu-To-uNN"/>
+                            <constraint firstItem="3CB-wK-KbH" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="R7r-6o-946"/>
+                            <constraint firstItem="0D5-Nc-LgM" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="exc-hz-UoI"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                        <variation key="default">
+                            <mask key="subviews">
+                                <exclude reference="3CB-wK-KbH"/>
+                            </mask>
+                            <mask key="constraints">
+                                <exclude reference="8tT-Ws-zu0"/>
+                                <exclude reference="R7r-6o-946"/>
+                            </mask>
+                        </variation>
+                        <variation key="heightClass=regular-widthClass=regular">
+                            <mask key="subviews">
+                                <include reference="3CB-wK-KbH"/>
+                            </mask>
+                            <mask key="constraints">
+                                <include reference="8tT-Ws-zu0"/>
+                                <include reference="R7r-6o-946"/>
+                            </mask>
+                        </variation>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="137.109375" y="91.361639824304532"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="screenImage" width="90" height="90"/>
+    </resources>
+</document>
