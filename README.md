@@ -20,4 +20,4 @@ For big screens, in storyboard:
 	
 - Display different image from the one for compact size:	
 			In 'Assets' folder, select the image set and show its 'Attributes inspector'.
-			Add two specific devices: (iPad and iPhone).
+			Add two devices: (iPad and iPhone).
