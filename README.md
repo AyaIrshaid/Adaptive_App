@@ -13,7 +13,7 @@
 ![Vary for Traits](images/screenshots/4.png)
 
 
-### Label Font:
+### Label font:
 
 * Select the title label, then click `+` beside `Font` and set a larger font for **wR hR**.
 
