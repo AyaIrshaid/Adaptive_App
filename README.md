@@ -32,7 +32,7 @@
 * Add a new label as subtitle.
 
 > since the option `Vary for Traits` is selected for regular width and height (eg. iPad Pro 9.7 inch),
-> this **will not appear** on screens with compact width and height (eg. iPhone 6 - Portrait).
+> this **will not appear** on screens with compact width and height (eg. iPhone 5).
 	
 ### Display different images for iPad and iPhone:
 
