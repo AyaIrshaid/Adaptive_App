@@ -8,7 +8,7 @@
 ## Notes:
 
 
-**In storyboard:**, select an iPad view, click `Vary for Traits` button, and select both **width** and **height**. 
+**In storyboard:** Select an iPad view, click `Vary for Traits` button, and select both **width** and **height**. 
 
 ![Vary for Traits](images/screenshots/4.png)
 
@@ -31,10 +31,10 @@
 
 * Add a new label as subtitle.
 
-> since the option `Vary for Traits` is selected for regular width and height,
-> this will not appear on screens with compact width and height.
+> since the option `Vary for Traits` is selected for regular width and height (eg. iPad),
+> this **will not appear** on screens with compact width and height (eg. iPhone).
 	
 ### Display different images for iPad and iPhone:
 
-* In `Assets` folder, select the image set and show its `Attributes inspector`, then add two devices: (iPad and iPhone).
-![Custome image for iPad](images/screenshots/1.png))
+* In `Assets` folder, select the image set and show its  `Attributes inspector` , then add the required devices: (iPad or iPhone or both).
+![Custome image for iPad](images/screenshots/1.png)
